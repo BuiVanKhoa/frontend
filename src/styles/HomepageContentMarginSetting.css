@@ -1,0 +1,23 @@
+.ms_space{
+    margin-top: 5px;
+    background-color: #fff;
+}
+.marginsetting_title{
+    text-align: left;
+}
+.register_row{
+    text-align: end;
+}
+.btn_register{
+    padding: 5px 10px;
+    background-color: rgb(64, 153, 255);
+    color: #fff;
+    font-weight: 500;
+    border: 3px solid #fff;
+    border-radius: 8px;
+}
+.marginsetting_body{
+    font-size: 12px;
+    line-height: 1rem;
+    font-weight: 400;
+}

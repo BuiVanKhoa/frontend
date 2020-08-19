@@ -1,0 +1,169 @@
+.list_acc {
+    text-align: left;
+}
+
+.select_group {
+    color: black;
+    font-weight: 500;
+    text-align: left;
+}
+
+.slb_status {
+    width: 200px;
+    border-top: #fff;
+    border-right: #fff;
+    border-left: #fff;
+    border-bottom: 2px solid black;
+}
+
+.slb_search {
+    width: 300px;
+    border: 1px solid #fff;
+}
+
+.btn_search {
+    padding: 10px 30px;
+    background-color: rgb(64, 153, 255);
+    color: #fff;
+    font-weight: 500;
+    border: 3px solid #fff;
+    border-radius: 8px;
+}
+
+.new_account {
+    text-align: end;
+}
+
+.btn_new {
+    padding: 10px 30px;
+    background-color: rgb(64, 153, 255);
+    color: #fff;
+    font-weight: 500;
+    border: 3px solid #fff;
+    border-radius: 8px;
+}
+
+.btn_adduser {
+    padding: 10px 30px;
+    background-color: rgb(45, 182, 80);
+    color: #fff;
+    font-weight: 500;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.btn_edit {
+    padding: 10px 30px;
+    background-color: rgb(204, 230, 62);
+    color: #fff;
+    font-weight: 500;
+    border: 3px solid #fff;
+    border-radius: 8px;
+}
+
+.btn_delete {
+    padding: 10px 30px;
+    background-color: rgb(201, 72, 55);
+    color: #fff;
+    font-weight: 500;
+    border: 3px solid #fff;
+    border-radius: 8px;
+}
+
+.check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.check:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.check input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.check input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.check .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.pagi {
+    text-align: end;
+}
+
+.textbox_ {
+    width: 300px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    border-bottom-color: black;
+}
+
+.account_space {
+    margin-top: 5px;
+}

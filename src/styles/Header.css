@@ -1,0 +1,24 @@
+.brand {
+    font-size: 28px;
+    font-weight: 500;
+    color: #e2d2a5;
+    text-decoration: none;
+}
+
+.brand:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.head_brand {
+    background-color: #0e0e0e;
+}
+
+.username {
+    color: #fff;
+    font-size: 16px;
+}
+
+.username:hover {
+    color: rgb(209, 188, 150);
+}

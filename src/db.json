@@ -1,0 +1,81 @@
+{
+    "accountTable": [{
+            "id": "123",
+            "companyName": "DAC Viet Nam/DHBK",
+            "accountName": "dactachvn_hung",
+            "mailaddress": "abc@dactech.vn",
+            "status": "Applying",
+            "APPROVALDATE": "2020-08-01"
+        },
+        {
+            "id": "1235",
+            "companyName": "DAC Viet Nam/DHBK",
+            "accountName": "dactachvn_nhat",
+            "mailaddress": "abcdef@dactech.vn",
+            "status": "Applying",
+            "APPROVALDATE": "2020-08-07"
+        }
+    ],
+    "capampaignTable": [{
+            "id": "1",
+            "campaignName": "Covid 19 - sell mark",
+            "lineItemId": "123",
+            "lineItemName": "DAC Viet Nam sell mark 3D",
+            "status": "checked",
+            "overallBudget": "2000$",
+            "curentlyUsedAAmount": "10$",
+            "curentlyUsageRate": "0.5%",
+            "startDate": "2020-07-01",
+            "endDate": "2020-08-01"
+        },
+        {
+            "id": "2",
+            "campaignName": "Covid 19 - sell mark",
+            "lineItemId": "1235",
+            "lineItemName": "DAC Viet Nam sell mark 3D",
+            "status": "",
+            "overallBudget": "2000$",
+            "curentlyUsedAAmount": "10$",
+            "curentlyUsageRate": "0.5%",
+            "startDate": "2020-07-01",
+            "endDate": "2020-08-01"
+        },
+        {
+            "id": "3",
+            "campaignName": "Summer - alcohol",
+            "lineItemId": "13",
+            "lineItemName": "Ruou cho nu",
+            "status": "",
+            "overallBudget": "2000$",
+            "curentlyUsedAAmount": "10$",
+            "curentlyUsageRate": "0.5%",
+            "startDate": "2020-07-01",
+            "endDate": "2020-08-01"
+        }
+    ],
+    "lineItemTable": [{
+            "id": "1",
+            "untreated": "12",
+            "lineItemId": "123",
+            "campaignName": "USB cho PC",
+            "LineItemName": "DAC Viet Nam/DHBK",
+            "status": "checked",
+            "overallBudget": "1000$",
+            "startDate": "2020-07-08",
+            "endDate": "2020-08-01",
+            "registeredDate": "2020-08-01 18:22:01"
+        },
+        {
+            "id": "2",
+            "untreated": "22",
+            "lineItemId": "1235",
+            "campaignName": "cab cho PC",
+            "LineItemName": "DAC Viet Nam/DHBK",
+            "status": "checked",
+            "overallBudget": "1000$",
+            "startDate": "2020-07-08",
+            "endDate": "2020-08-01",
+            "registeredDate": "2020-08-01 18:22:01"
+        }
+    ]
+}
